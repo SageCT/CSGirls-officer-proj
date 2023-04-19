@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", arial;
+}
+
+.body {
+  flex-direction: column;
+  flex: 1;
+}
+
+/* Header */
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 16px;
+  padding: 0px 100px 0px 0px;
+  gap: 16px;
+}
+
+.header-links {
+  display: flex;
+  margin-left: auto;
+  padding: 0px 100px 0px 0px;
+}
+
+#logo-img {
+  width: 84px;
+  height: 84px;
+  margin-right: auto;
+}
+
+/* Header/Footer */
+.navbar {
+  display: flex;
+  color: #f9faf8;
+  background-color: #1f2937;
+  padding: 20px 0px 20px 100px;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: row wrap;
+  align-content: center;
+  justify-content: space-between;
+  padding: 15px 20px 20px 100px;
+  color: #f9faf8;
+  background-color: #1f2937;
+}
+
+/* Footer Only */
+.footer {
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+/* Block 1 */
+.block-1 {
+  display: flex;
+  color: #f9faf8;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+}
+
+.block-1-right {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
+}
+
+.block-1-left {
+  display: flex;
+  height: 400px;
+  margin: 100px 50px 0px 0px;
+}
+
+#logo-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+  background-color: #1f2937;
+  text-align: left;
+  margin: 0px;
+}
+
+/* Text Underneath the "This Website is Awesome" text */
+#block-1-secondary {
+  font-size: 18px;
+
+  color: #e5e7eb;
+  text-align: left;
+  margin-top: 5px;
+}
+
+#block-1-image {
+  flex-direction: row;
+  width: 500px;
+  height: 350px;
+}
+
+/* Button for Sign-up page */
+#block-1-signup {
+  display: block;
+  width: 100px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  padding: 8px 10px;
+  border: none;
+}
+
+/* Block 2 */
+.block-2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #f9faf8;
+}
+
+.block-2-title {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.block-2-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0px 50px 0px;
+
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.block-2-cards p {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1300px) {
+  .block-2-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.block-2-cards img {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  justify-content: center;
+  border: 5px solid #3882f6;
+  border-radius: 15px;
+  margin: 5px 20px 0px 20px;
+  gap: 50px;
+}
+
+/* Block 3 (Quote/why I should be webmaster)*/
+.block-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 0 200px;
+}
+
+.block-3 p {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.block-3 b {
+  padding-bottom: 20px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+/* Call to action part */
+
+.block-4 {
+  background-color: #3882f6;
+  margin: 50px 200px;
+  padding: 10px 80px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border-color: none;
+}
+
+.block-4-text {
+  text-align: left;
+}
+
+.block-4-text p {
+  color: #ffffff;
+  margin: 5px 30px 30px 50px;
+}
+
+.block-4-text h3 {
+  color: #ffffff;
+  margin: 30px 0px 0px 50px;
+}
+
+.block-4-button {
+  flex: 1;
+}
+
+.block-4 button {
+  color: #3882f6;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 8px;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
