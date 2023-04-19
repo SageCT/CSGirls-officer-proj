@@ -47,7 +47,7 @@ a {
 .navbar {
   display: flex;
   color: #f9faf8;
-  background-color: #1f2937;
+  background-color: #6c8fb2;
   padding: 20px 0px 20px 100px;
   align-items: center;
 }
@@ -75,7 +75,7 @@ a {
   color: #f9faf8;
   justify-content: center;
   align-items: center;
-  background-color: #1f2937;
+  background-color: #6c8fb2;
   text-align: center;
   padding: 10px 0px 20px 0px;
 }
@@ -98,7 +98,7 @@ a {
   font-size: 48px;
   font-weight: 800;
   color: #f9faf8;
-  background-color: #1f2937;
+  background-color: #6c8fb2;
   text-align: left;
   margin: 0px;
 }
@@ -116,6 +116,7 @@ a {
   flex-direction: row;
   width: 500px;
   height: 350px;
+  border-radius: 50px 50px;
 }
 
 /* Button for Sign-up page */
@@ -212,11 +213,11 @@ a {
 
 .block-4 {
   background-color: #3882f6;
-  margin: 50px 200px;
+  margin: 128px 48px;
   padding: 10px 80px;
   display: flex;
   align-items: center;
-  border-radius: 5px;
+  border-radius: 24px;
   border-color: none;
 }
 
