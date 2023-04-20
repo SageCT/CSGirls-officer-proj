@@ -248,7 +248,6 @@ a {
 
 .block-4-button {
   display: block;
-  width: 100px;
   color: #3882f6;
   background-color: #ffffff;
   font-size: 18px;
@@ -259,6 +258,7 @@ a {
 
 .block-4 button {
   display: flex;
+  width: 100px;
   flex-shrink: 0;
   align-items: center;
   color: #3882f6;
