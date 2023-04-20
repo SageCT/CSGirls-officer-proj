@@ -116,12 +116,13 @@ a {
   flex-direction: row;
   width: 500px;
   height: 350px;
-  border-radius: 50px 50px;
+  border-radius: 30px 30px;
 }
 
 /* Button for Sign-up page */
 #block-1-signup {
   display: block;
+  flex-shrink: 0;
   width: 100px;
   color: #f9faf8;
   background-color: #3882f6;
@@ -212,13 +213,22 @@ a {
 /* Call to action part */
 
 .block-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-4-content {
   background-color: #3882f6;
-  margin: 128px 48px;
+  margin: 50px 200px;
   padding: 10px 80px;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   border-radius: 24px;
   border-color: none;
+  max-width: 1000px;
 }
 
 .block-4-text {
@@ -228,6 +238,7 @@ a {
 .block-4-text p {
   color: #ffffff;
   margin: 5px 30px 30px 50px;
+  text-align: center;
 }
 
 .block-4-text h3 {
@@ -236,10 +247,20 @@ a {
 }
 
 .block-4-button {
-  flex: 1;
+  display: block;
+  width: 100px;
+  color: #3882f6;
+  background-color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .block-4 button {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
   color: #3882f6;
   background-color: #ffffff;
   border-color: #ffffff;
@@ -247,4 +268,5 @@ a {
   padding: 5px 20px;
   font-size: 15px;
   font-weight: bold;
+  border: none;
 }
